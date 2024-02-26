@@ -1,0 +1,30 @@
+{
+    "name": "deuchnord/prophecy-reproducer",
+    "type": "project",
+    "license": "WTFPL-1.0",
+    "autoload": {
+        "psr-4": {
+            "Deuchnord\\Reproducer\\Prophecy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deuchnord\\Reproducer\\Prophecy\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deuchnord",
+            "email": "git@deuchnord.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "phpspec/prophecy": "^1.3",
+        "phpspec/prophecy-phpunit": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.50"
+    }
+}
